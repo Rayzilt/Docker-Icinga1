@@ -20,3 +20,12 @@ RUN set -x \
 	&& rm -rf /var/lib/apt/lists/*
 
 CMD ["bash"]
+
+LABEL org.label-schema.name="Icinga" \
+	org.label-schema.description="Icinga Version 1.x" \
+	org.label-schema.version=$DATE \
+	org.label-schema.usage="https://hub.docker.com/r/rayzilt/icinga1-core" \
+	org.label-schema.url="https://icinga.com" \
+	org.label-schema.vendor="Rayzilt" \
+	org.label-schema.build-date=$DATE \
+	org.label-schema.schema-version="1.0" \
