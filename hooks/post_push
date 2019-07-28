@@ -1,0 +1,9 @@
+#!/bin/bash
+
+DATE=$(date -u +"%Y-%m-%d")
+
+docker tag \
+	"${IMAGE_NAME}" \
+	"${DOCKER_REPO}:${DATE}"
+docker push \
+	"${DOCKER_REPO}:${DATE}"
