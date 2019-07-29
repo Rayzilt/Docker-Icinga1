@@ -2,6 +2,10 @@
 
 Docker image with Icinga version 1.x installed for deployment purposes based on Debian Stable.
 
+[![Build Automated](https://img.shields.io/docker/automated/rayzilt/icinga1-core.svg)](https://hub.docker.com/r/rayzilt/icinga1-core)
+[![Build Status](https://img.shields.io/docker/cloud/build/rayzilt/icinga1-core.svg)](https://hub.docker.com/r/rayzilt/icinga1-core)
+[![Docker Pulls](https://img.shields.io/docker/pulls/rayzilt/icinga1-core.svg)](https://hub.docker.com/r/rayzilt/icinga1-core)
+
 ### Tags ###
 Branch  | Version  | Tag Name     | Dockerfile | Image Info
 ------- | -------- | ------------ | ---------  | -----------
